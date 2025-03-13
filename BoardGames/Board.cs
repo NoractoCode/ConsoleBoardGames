@@ -116,7 +116,7 @@
                 x = x + X;
             }
             while (rows <= y);
-            Initialize = false; // Disaples overwriting of Grid[] Values
+            Initialize = false; // Disables overwriting of Grid[] Values
         }
     }
 }
