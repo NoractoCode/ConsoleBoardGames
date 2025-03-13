@@ -1,0 +1,15 @@
+C:\Users\etrun\source\repos\BoardGames\BoardGames\bin\Debug\net7.0\BoardGames.exe
+C:\Users\etrun\source\repos\BoardGames\BoardGames\bin\Debug\net7.0\BoardGames.deps.json
+C:\Users\etrun\source\repos\BoardGames\BoardGames\bin\Debug\net7.0\BoardGames.runtimeconfig.json
+C:\Users\etrun\source\repos\BoardGames\BoardGames\bin\Debug\net7.0\BoardGames.dll
+C:\Users\etrun\source\repos\BoardGames\BoardGames\bin\Debug\net7.0\BoardGames.pdb
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\BoardGames.csproj.AssemblyReference.cache
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\BoardGames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\BoardGames.AssemblyInfoInputs.cache
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\BoardGames.AssemblyInfo.cs
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\BoardGames.csproj.CoreCompileInputs.cache
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\BoardGames.dll
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\refint\BoardGames.dll
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\BoardGames.pdb
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\BoardGames.genruntimeconfig.cache
+C:\Users\etrun\source\repos\BoardGames\BoardGames\obj\Debug\net7.0\ref\BoardGames.dll
