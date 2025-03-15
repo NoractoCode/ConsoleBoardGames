@@ -1,6 +1,7 @@
 ﻿namespace BoardGames
 {
-    abstract class BaseGame
+    [Serializable]
+    abstract class BaseGame : SaveManager
     {
         public Board Board { get; set; }
         public CurrentPlayer Token { get; set; }
@@ -31,6 +32,8 @@
                         Console.Clear();
                         Board.BoardState();
                         Console.WriteLine($"it is player {currentPlayer}'s turn!");
+                        Console.WriteLine("type \"save\" to save the game and \"Load\" to load one.");
+
                     }
                     while (ValidMove() == false);// Loops until valid move is made
                 }
@@ -52,7 +55,29 @@
             }
         }
 
-        public abstract bool ValidMove();
+        public virtual bool ValidMove()
+        {
+            string playerOne = $" {Token.PlayerOne} ";
+            string playerTwo = $" {Token.PlayerTwo} ";
+            string playerInput = Console.ReadLine();
+            if (playerInput.ToLower() == "save")
+            {
+                Save(Board, "BoardSave");
+                Save(Token, "TokenSave");
+
+            }
+            else if (playerInput.ToLower() == "load")
+            {
+                Board = Load<Board>("BoardSave");
+                Token = Load<CurrentPlayer>("TokenSave");
+            }
+            else
+            {
+                //Code for specific game moves here
+            }
+            return false;
+        }
+
 
         public abstract int CheckWin(); // set for Tic Tac Toe
 

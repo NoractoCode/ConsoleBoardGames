@@ -1,10 +1,16 @@
 ﻿namespace BoardGames
 {
+    [Serializable]
     public class CurrentPlayer
     {
         public char PlayerOne { get; set; }
         public char PlayerTwo { get; set; }
         public char CurrentToken { get; set; }
+
+        public CurrentPlayer()
+        {
+
+        }
         public CurrentPlayer(char playerOne, char playerTwo)
         {
             PlayerOne = playerOne;
@@ -15,7 +21,7 @@
         {
             if (CurrentToken == PlayerOne)
             {
-                Console.WriteLine( "1");
+                Console.WriteLine("1");
                 CurrentToken = PlayerTwo;
                 return PlayerTwo;
             }

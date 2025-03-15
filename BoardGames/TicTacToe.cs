@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace BoardGames
@@ -16,41 +17,57 @@ namespace BoardGames
             Board = new Board(X, Y, gridSize, true);//Creates Board (True for numbers false for blank spaces)
             //Create GameHistory Class for save/Load
         }
-        public override bool ValidMove()
+
+        public override bool ValidMove() //set for TicTacToe as Default
         {
             string playerOne = $" {Token.PlayerOne} ";
             string playerTwo = $" {Token.PlayerTwo} ";
-            try
+            string playerInput = Console.ReadLine();
+            if (playerInput.ToLower() == "save")
             {
-                int choice = Convert.ToInt32(Console.ReadLine());
-                if (choice > 0 && choice <= Board.Grid.Length)
+                Save(Board, "BoardSave");
+                Save(Token, "TokenSave");
+
+            }
+            else if (playerInput.ToLower() == "load")
+            {
+                Board = Load<Board>("BoardSave");
+                Token = Load<CurrentPlayer>("TokenSave");
+            }
+            else
+            {
+                try
                 {
-                    if (Board.Grid[choice - 1] == playerOne || Board.Grid[choice - 1] == playerTwo)
+                    int choice = Convert.ToInt32(playerInput);
+                    if (choice > 0 && choice <= Board.Grid.Length)
+                    {
+                        if (Board.Grid[choice - 1] == playerOne || Board.Grid[choice - 1] == playerTwo)
+                        {
+                            Console.WriteLine("Invalid Input");
+                            Thread.Sleep(1000);
+                            return false;
+                        }
+                        else
+                        {
+                            Board.Grid[choice - 1] = $" {Token.CurrentToken} ";
+                            return true;
+                        }
+                    }
+                    else
                     {
                         Console.WriteLine("Invalid Input");
                         Thread.Sleep(1000);
                         return false;
                     }
-                    else
-                    {
-                        Board.Grid[choice - 1] = $" {Token.CurrentToken} ";
-                        return true;
-                    }
                 }
-                else
+                catch
                 {
                     Console.WriteLine("Invalid Input");
                     Thread.Sleep(1000);
                     return false;
                 }
             }
-            catch
-            {
-                Console.WriteLine("Invalid Input");
-                Thread.Sleep(1000);
-                return false;
-            }
-
+            return false;
         }
         public override int CheckWin() // set for Tic Tac Toe
         {

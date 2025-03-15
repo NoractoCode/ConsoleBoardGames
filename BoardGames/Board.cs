@@ -1,12 +1,20 @@
 ﻿namespace BoardGames
 {
+    [Serializable]
+
+
     public class Board
     {
-        private int X { get; set; } // Boards X Value
-        private int Y { get; set; } // Boards Y Value (Max 26)
+        public int X { get; set; } // Boards X Value
+        public int Y { get; set; } // Boards Y Value (Max 26)
         public string[] Grid { get; set; } // Grid Values (Max of 999 Spaces)
-        private bool Numbers { get; set; } // Turn Grid Numbers on or Off
-        private bool Initialize = true; // Set to true until initial setup is complete.
+        public bool Numbers { get; set; } // Turn Grid Numbers on or Off
+        public bool Initialize = true; // Set to true until initial setup is complete.
+
+        public Board() 
+        {
+
+        }
         public Board(int x, int y, string[] grid, bool numbers)
         {
             X = x;
