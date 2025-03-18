@@ -12,12 +12,12 @@
             Game();//Runs the Game
         }
 
-        public virtual void CustomBoard()
+        public virtual void CustomBoard() //Create Custom Board by overriding this method
         {
-            Board.InitializeBoard();
+            Board.InitializeBoard();//Creates Initial BoardState
         }
 
-        public virtual void Game()
+        public virtual void Game()// Basic HUD for Game
         {
             {
                 char currentPlayer = Token.CurrentToken;
@@ -35,7 +35,7 @@
                         Console.WriteLine("type \"save\" to save the game and \"Load\" to load one.");
 
                     }
-                    while (ValidMove() == false);// Loops until valid move is made
+                    while (CheckInput() == false);// Loops until valid move is made
                 }
                 while (CheckWin() == 0); //Loops until win condition is found
                 if (CheckWin() == 1)
@@ -55,31 +55,29 @@
             }
         }
 
-        public virtual bool ValidMove()
+        public virtual bool CheckInput()
         {
-            string playerOne = $" {Token.PlayerOne} ";
-            string playerTwo = $" {Token.PlayerTwo} ";
             string playerInput = Console.ReadLine();
             if (playerInput.ToLower() == "save")
             {
-                Save(Board, "BoardSave");
-                Save(Token, "TokenSave");
+                Save(Board, $"{this.GetType().Name}BoardSave");
+                Save(Token, $"{this.GetType().Name}TokenSave");
 
             }
             else if (playerInput.ToLower() == "load")
             {
-                Board = Load<Board>("BoardSave");
-                Token = Load<CurrentPlayer>("TokenSave");
+                Board = Load<Board>($"{this.GetType().Name}BoardSave");
+                Token = Load<CurrentPlayer>($"{this.GetType().Name}TokenSave");
             }
             else
             {
-                //Code for specific game moves here
+                return ValidMove (playerInput);
             }
             return false;
         }
 
-
-        public abstract int CheckWin(); // set for Tic Tac Toe
+        public abstract bool ValidMove(string playerInput);
+        public abstract int CheckWin();
 
 
     }
