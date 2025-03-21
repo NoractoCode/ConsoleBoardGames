@@ -143,7 +143,7 @@ namespace BoardGames
                     x++;
                 }
             }
-            if (x == 9)
+            if (x == Board.Grid.Length)
             {
                 return false;
             }

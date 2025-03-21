@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\connectfour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\connectfour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\othello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\othello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\basegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\basegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\tictactoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\basegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\basegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,53 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Program.cs",
-              "RelativeDocumentMoniker": "BoardGames\\Program.cs",
-              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Program.cs",
-              "RelativeToolTip": "BoardGames\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:12:46.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConnectFour.cs",
-              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\ConnectFour.cs",
-              "RelativeDocumentMoniker": "BoardGames\\ConnectFour.cs",
-              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\ConnectFour.cs",
-              "RelativeToolTip": "BoardGames\\ConnectFour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:18:24.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseGame.cs",
-              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\BaseGame.cs",
-              "RelativeDocumentMoniker": "BoardGames\\BaseGame.cs",
-              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\BaseGame.cs",
-              "RelativeToolTip": "BoardGames\\BaseGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:06:43.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "TicTacToe.cs",
               "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\TicTacToe.cs",
               "RelativeDocumentMoniker": "BoardGames\\TicTacToe.cs",
               "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\TicTacToe.cs",
               "RelativeToolTip": "BoardGames\\TicTacToe.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAJYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwI4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:05:51.52Z",
+              "WhenOpened": "2025-03-21T09:27:10.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseGame.cs",
+              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\BaseGame.cs",
+              "RelativeDocumentMoniker": "BoardGames\\BaseGame.cs",
+              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\BaseGame.cs",
+              "RelativeToolTip": "BoardGames\\BaseGame.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T08:07:23.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Othello.cs",
+              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Othello.cs",
+              "RelativeDocumentMoniker": "BoardGames\\Othello.cs",
+              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Othello.cs*",
+              "RelativeToolTip": "BoardGames\\Othello.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T07:52:38.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Program.cs",
+              "RelativeDocumentMoniker": "BoardGames\\Program.cs",
+              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Program.cs",
+              "RelativeToolTip": "BoardGames\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:12:46.018Z",
               "EditorCaption": ""
             }
           ]

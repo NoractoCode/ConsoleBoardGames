@@ -1,4 +1,6 @@
-﻿namespace BoardGames
+﻿using System.Text.RegularExpressions;
+
+namespace BoardGames
 {
     [Serializable]
     abstract class BaseGame : SaveManager
@@ -16,13 +18,11 @@
         {
             Board.InitializeBoard();//Creates Initial BoardState
         }
-
         public virtual void Game()// Basic HUD for Game
         {
             {
                 char currentPlayer = Token.CurrentToken;
-                string gameName = this.GetType().Name;
-                Console.WriteLine($"Welcome to {gameName}");
+                Console.WriteLine($"Welcome to {SplitName(this.GetType().Name)}");
                 Thread.Sleep(2000);
                 do
                 {
@@ -44,6 +44,7 @@
                     Board.BoardState();
                     Console.WriteLine($"Congratulations {currentPlayer} on your victory!");
                     Console.WriteLine("\n");
+                    Thread.Sleep(3000);
                 }
                 else if (CheckWin() == 2)
                 {
@@ -51,6 +52,7 @@
                     Board.BoardState();
                     Console.WriteLine($"DRAW!");
                     Console.WriteLine("\n");
+                    Thread.Sleep(3000);
                 }
             }
         }
@@ -71,7 +73,7 @@
             }
             else
             {
-                return ValidMove (playerInput);
+                return ValidMove(playerInput);
             }
             return false;
         }
@@ -79,6 +81,18 @@
         public abstract bool ValidMove(string playerInput);
         public abstract int CheckWin();
 
+        private string SplitName(string input)//Turns Class Name into useable string
+        {
+            string name = null;
+            string pattern = @"(?<!^)(?=[A-Z])";
+            string[] result = Regex.Split(input, pattern);
 
+            foreach (var word in result)
+            {
+                name = name + " " + word;
+            }
+
+            return name;
+        }
     }
 }
