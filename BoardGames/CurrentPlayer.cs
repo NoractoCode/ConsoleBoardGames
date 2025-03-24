@@ -1,6 +1,5 @@
 ﻿namespace BoardGames
 {
-    [Serializable]
     public class CurrentPlayer
     {
         public char PlayerOne { get; set; }

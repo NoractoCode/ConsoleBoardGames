@@ -45,7 +45,7 @@
                             Grid[z] = $"{z + 1}";
                         }
                     }
-                    else if (Numbers == false && Initialize == true)
+                    else if (Numbers == false && Initialize == true) // Writes Blank Spaces inside of Grid if disabled
                     {
                         for (z = 0; z < Grid.Length; ++z)
                         {
@@ -55,19 +55,17 @@
                 }
             }
             while (z < Grid.Length);
-            Initialize = false;
+            Initialize = false;// Disables overwriting of Grid[] Values
         }
 
         public virtual void BoardState() //Generates Game Board via x and y axis input and adds an array of changeable string variables for game engine
         {
-            int z, column = X, rows = 1, line = 1, num = 1, x, y;
-            x = X;
-            y = Y;
+            int z, column = X, rows = 1, line = 1, num = 1, x =X, y=Y;
             char[] letter = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
             int rowNumber = 0;
 
             Console.Write(" "); // writes numbers above board dependant on boards X value
-            for (z = (x - column); z < x; ++z)
+            for (z = 0; z < x; ++z)
             {
                 if (num < 10)
                 {
@@ -79,12 +77,10 @@
                     Console.Write($"  {num}");
                     ++num;
                 }
-
-
             }
             Console.WriteLine("");
             Console.Write(" ");
-            for (z = (x - column); z < x; ++z)
+            for (z = 0; z < x; ++z)
             {
                 Console.Write("╦═══");
             }
@@ -121,10 +117,9 @@
                 }
 
                 rows = rows + 1;
-                x = x + X;
+                x = x + X; // Adds X value to x to move to next row
             }
             while (rows <= y);
-            Initialize = false; // Disables overwriting of Grid[] Values
         }
     }
 }

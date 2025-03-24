@@ -6,7 +6,7 @@
         static void Main()
         {
 
-            int x = 0;
+            bool loop = true;
 
             do
             {
@@ -21,41 +21,30 @@
                 Console.WriteLine("(2) Connect Four");
                 Console.WriteLine("(3) Othello");
                 string choice = Console.ReadLine();
-                if (choice.ToLower() == "exit")
+
+                switch (choice.ToLower())
                 {
-                    break;
-                }
-                else
-                {
-                    try
-                    {
-                        x = Convert.ToInt32(choice);
-                    }
-                    catch { }
-                    if (x == 1)
-                    {
-                        TicTacToe game = new TicTacToe(3, 3);
-                        game.GameStart();
-                    }
-                    else if (x == 2)
-                    {
-                        ConnectFour game = new ConnectFour(7, 6);
-                        game.GameStart();
-                    }
-                    else if (x == 3)
-                    {
-                        Othello game = new Othello(8, 8);
-                        game.GameStart();
-                    }
-                    else
-                    {
+                    case "1":
+                        TicTacToe gameOne = new TicTacToe(3, 3);
+                        gameOne.GameStart();
+                        break;
+                    case "2":
+                        ConnectFour gameTwo = new ConnectFour(7, 6);
+                        gameTwo.GameStart();
+                        break;
+                    case "3":
+                        Othello gameThree = new Othello(8, 8);
+                        gameThree.GameStart();
+                        break;
+                    case "exit":
+                        loop = false;
+                        break;
+                    default:
                         Console.WriteLine("Invalid Input");
-                        Thread.Sleep(1000);
-                    }
+                        break;
                 }
-                x = 0;
             }
-            while (x == 0);
+            while (loop == true);
         }
     }
 }

@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\",
+  "WorkspaceRootPath": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\othello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\othello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\noractocode\\consoleboardgames\\boardgames\\currentplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\currentplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\basegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\noractocode\\consoleboardgames\\boardgames\\basegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\basegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\tictactoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\tictactoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\noractocode\\consoleboardgames\\boardgames\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\consoleboardgames\\boardgames\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\noractocode\\consoleboardgames\\boardgames\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\noractocode\\consoleboardgames\\boardgames\\othello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\othello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|c:\\users\\etrun\\source\\repos\\noractocode\\consoleboardgames\\boardgames\\tictactoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A89ECB-F21A-4052-BA30-BD4F14A66F6C}|BoardGames\\BoardGames.csproj|solutionrelative:boardgames\\tictactoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CurrentPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\CurrentPlayer.cs",
+              "RelativeDocumentMoniker": "BoardGames\\CurrentPlayer.cs",
+              "ToolTip": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\CurrentPlayer.cs*",
+              "RelativeToolTip": "BoardGames\\CurrentPlayer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:11:40.686Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -35,38 +56,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\Board.cs",
+              "RelativeDocumentMoniker": "BoardGames\\Board.cs",
+              "ToolTip": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\Board.cs",
+              "RelativeToolTip": "BoardGames\\Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:57:23.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TicTacToe.cs",
-              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\TicTacToe.cs",
+              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\TicTacToe.cs",
               "RelativeDocumentMoniker": "BoardGames\\TicTacToe.cs",
-              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\TicTacToe.cs",
+              "ToolTip": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\TicTacToe.cs",
               "RelativeToolTip": "BoardGames\\TicTacToe.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAwwI4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T09:27:10.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T09:27:10.483Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BaseGame.cs",
-              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\BaseGame.cs",
+              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\BaseGame.cs",
               "RelativeDocumentMoniker": "BoardGames\\BaseGame.cs",
-              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\BaseGame.cs",
-              "RelativeToolTip": "BoardGames\\BaseGame.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\BaseGame.cs*",
+              "RelativeToolTip": "BoardGames\\BaseGame.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T08:07:23.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Othello.cs",
-              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Othello.cs",
+              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\Othello.cs",
               "RelativeDocumentMoniker": "BoardGames\\Othello.cs",
-              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Othello.cs*",
-              "RelativeToolTip": "BoardGames\\Othello.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBcAAABDAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\Othello.cs",
+              "RelativeToolTip": "BoardGames\\Othello.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T07:52:38.772Z",
               "EditorCaption": ""
@@ -75,11 +108,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\Program.cs",
               "RelativeDocumentMoniker": "BoardGames\\Program.cs",
-              "ToolTip": "C:\\Users\\etrun\\source\\repos\\ConsoleBoardGames\\BoardGames\\Program.cs",
+              "ToolTip": "C:\\Users\\etrun\\source\\repos\\NoractoCode\\ConsoleBoardGames\\BoardGames\\Program.cs",
               "RelativeToolTip": "BoardGames\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T09:12:46.018Z",
               "EditorCaption": ""

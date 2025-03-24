@@ -2,7 +2,6 @@
 
 namespace BoardGames
 {
-    [Serializable]
     abstract class BaseGame : SaveManager
     {
         public Board Board { get; set; }
@@ -38,18 +37,18 @@ namespace BoardGames
                     while (CheckInput() == false);// Loops until valid move is made
                 }
                 while (CheckWin() == 0); //Loops until win condition is found
+
+                Console.Clear();
+                Board.BoardState();
+
                 if (CheckWin() == 1)
                 {
-                    Console.Clear();
-                    Board.BoardState();
                     Console.WriteLine($"Congratulations {currentPlayer} on your victory!");
                     Console.WriteLine("\n");
                     Thread.Sleep(3000);
                 }
                 else if (CheckWin() == 2)
                 {
-                    Console.Clear();
-                    Board.BoardState();
                     Console.WriteLine($"DRAW!");
                     Console.WriteLine("\n");
                     Thread.Sleep(3000);
